@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="tikchat.png" type="image/png">
+    <title>Create Community - Tik Chat</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #e8d9d1;
+            color: #4a3831;
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(74, 56, 49, 0.1);
+        }
+
+        h1 {
+            color: #8b6d5c;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        .instructions {
+            margin: 2rem 0;
+        }
+
+        .instructions h2 {
+            color: #8b6d5c;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .instructions ul {
+            list-style-type: none;
+            margin-left: 1rem;
+        }
+
+        .instructions li {
+            margin-bottom: 1rem;
+            color: #4a3831;
+            line-height: 1.5;
+            position: relative;
+            padding-left: 1.5rem;
+        }
+
+        .instructions li:before {
+            content: "•";
+            color: #8b6d5c;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        .email-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #8b6d5c;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+            margin-top: 1rem;
+            text-align: center;
+            width: 100%;
+        }
+
+        .email-button:hover {
+            background-color: #6d544a;
+        }
+
+        .note {
+            margin-top: 2rem;
+            padding: 1rem;
+            background-color: rgba(139, 109, 92, 0.1);
+            border-radius: 6px;
+            font-size: 0.9rem;
+            color: #4a3831;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Create a New Community</h1>
+        
+        <div class="instructions">
+            <h2>To create a new community, please email the administrators with the following information:</h2>
+            <ul>
+                <li>The name of your proposed community</li>
+                <li>A detailed description of what your community will be about</li>
+                <li>Any images you'd like to use for your community (optional)</li>
+            </ul>
+        </div>
+
+        <a href="mailto:manpreet.singh18@student.ufv.ca?subject=New Community Request&body=Community Name:%0D%0A%0D%0ADescription:%0D%0A%0D%0AAdditional Information:" class="email-button">
+            Email Admin to Create Community
+        </a>
+
+        <div class="note">
+            <strong>Note:</strong> Our admin team will review your request and get back to you within 24-48 hours. Please make sure to provide as much detail as possible to help us understand your community vision.
+        </div>
+    </div>
+</body>
+</html>

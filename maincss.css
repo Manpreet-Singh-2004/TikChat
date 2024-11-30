@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #5D5C61;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.features {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.feature-box {
+    background-color: white;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #5D5C61;
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.auth-buttons {
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 1.2em;
+}
+
+.sign-up {
+    background-color: #1abc9c;
+}
+
+.login {
+    background-color: #3498db;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+
